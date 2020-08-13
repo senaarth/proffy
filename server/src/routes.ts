@@ -21,6 +21,14 @@ routes.post('/classes', async (request, response) => {
         bio
     });
 
+    const user_id = insertedUsersIds[0];
+
+    const insertedClassesIds = await db('classes').insert({
+        subject,
+        cost,
+        user_id
+    });
+
     return response.send();
 });
 
