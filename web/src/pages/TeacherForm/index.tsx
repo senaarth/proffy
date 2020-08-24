@@ -2,6 +2,7 @@ import React from 'react';
 import PageHeader from '../../components/PageHeader';
 import Input from '../../components/Input/index';
 import './styles.css';
+import warningIcon from '../../assets/images/icons/warning.svg';
 
 function TeacherForm() {
     return(
@@ -27,6 +28,16 @@ function TeacherForm() {
                     <Input name="cost" label="Custo Hora/Aula"></Input>
                 </fieldset>
 
+                <footer>
+                    <p>
+                        <img src={warningIcon} alt="Aviso Importante"/>
+                        Importante! <br/>
+                        Preencha todos os dados.
+                    </p>
+                    <button type="button">
+                        Salvar Cadastro
+                    </button>
+                </footer>
             </main>
         </div>
     )
