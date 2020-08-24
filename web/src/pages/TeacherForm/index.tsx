@@ -1,5 +1,6 @@
 import React from 'react';
 import PageHeader from '../../components/PageHeader';
+import './styles.css';
 
 function TeacherForm() {
     return(
@@ -27,7 +28,7 @@ function TeacherForm() {
                         <label htmlFor="whatsapp">Whatsapp</label>
                         <input type="text" id="whatsapp" />
                     </div>
-                    
+
                 </fieldset>
             </main>
         </div>
