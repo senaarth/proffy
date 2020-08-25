@@ -18,17 +18,17 @@ function TeacherForm() {
                 <fieldset>
                     <legend>Seus Dados</legend>
 
-                    <Input name="name" label="Nome Completo"></Input>
-                    <Input name="avatar" label="Avatar"></Input>
-                    <Input name="whatsapp" label="Whatsapp"></Input>
-                    <TextArea name="bio" label="Biografia" ></TextArea>
+                    <Input name="name" label="Nome Completo" />
+                    <Input name="avatar" label="Avatar" />
+                    <Input name="whatsapp" label="Whatsapp" />
+                    <TextArea name="bio" label="Biografia" />
                 </fieldset>
 
                 <fieldset>
                     <legend>Sobre a Aula</legend>
 
-                    <Select name="subject" label="Matéria"></Select>
-                    <Input name="cost" label="Custo Hora/Aula"></Input>
+                    <Select name="subject" label="Matéria" />
+                    <Input name="cost" label="Custo Hora/Aula" />
                 </fieldset>
 
                 <footer>
