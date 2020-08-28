@@ -50,11 +50,14 @@ This project was made using the follow technologies:
 
 # :construction_worker: How to run
 ### Mobile
-To run the mobile project you need a cellphone with the app of [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) instaled or a emulator android/ios.
+To run the web project you need to clone this repository in your machine and do the following commands:
 <br />
-After, fork this repository and clone to your machine. Inside of the project's folder run the following commands:
 
 ```sh
+cd proffy
+
+cd web
+
 npm install
 
 npm start
