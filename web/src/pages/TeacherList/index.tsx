@@ -37,7 +37,7 @@ function TeacherList() {
                             { value: '6', label: 'Sábado'},
                         ]}
                     />
-                    <Input name="time" label="Hora"></Input>
+                    <Input name="time" label="Hora" type="time"></Input>
                 </form>
             </PageHeader>
 
