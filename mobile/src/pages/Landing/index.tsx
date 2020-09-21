@@ -33,7 +33,7 @@ function Landing() {
 
             <Text style={styles.totalConnections}>
                 Total de 265 conexões já realizadas. {' '}
-                {/* <Image source={heartIcon} /> */}
+                <Image source={heartIcon} />
             </Text>
         </View>
     );
