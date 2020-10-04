@@ -1,47 +1,34 @@
 <p align="center">
-   <img src="https://github.com/RafaelGoulartB/Proffy/blob/master/.github/logo.png" alt="Proffy" width="280"/>
+   <img src="./.github/logo.png" alt="Proffy" width="280"/>
 </p>
-<p>
-  <img src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/RafaelGoulartB/Proffy#readme">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
-  </a>
-  <a href="https://github.com/RafaelGoulartB/Proffy/graphs/commit-activity">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" target="_blank" />
-  </a>
-  <a href="https://github.com/RafaelGoulartB/Proffy/blob/master/LICENSE">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
-  </a>
-</p>
-
-> :rocket: Project made to connect teachers to students, made in Next Level Week #2 @Rocketseat
 
 # :pushpin: Table of Contents
-
+ 
 * [Technologies](#computer-technologies)
 * [Features](#rocket-features)
 * [How to Run](#construction_worker-how-to-run)
-* [Found a bug? Missing a specific feature?](#bug-issues)
-* [License](#closed_book-license)
 
 ### Web Screenshot
-<div style="display: flex; flex-direction: 'row'; align-items: 'center';">
-   <img src="https://github.com/RafaelGoulartB/Proffy/blob/master/.github/web-landing.png" width="400px">
-   <img src="https://github.com/RafaelGoulartB/Proffy/blob/master/.github/web-list.png" width="400px">
+<div>
+   <img src="./.github/web-landing.png" width="400px">
+   <img src="./.github/web-list.png" width="400px">
 </div>
 
 ### Mobile Screenshot
-<div style="display: flex; flex-direction: 'row'; align-items: 'center';">
-</div>
+<div>
+   <img src="./.github/mobile-splash.png" width="180">
+   <img src="./.github/mobile-onboarding.png" width="180">
+   <img src="./.github/mobile-home.png" width="180">
+   <img src="./.github/mobile-favoritos.png" width="180">
+</div> 
 
 # :computer: Technologies
 This project was made using the follow technologies:
-<ul>
-  <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
-  <li><a href="https://reactnative.dev/">React Native</a></li>
-  <li><a href="https://expo.io/">Expo</a></li>
-  <li><a href="https://expressjs.com/en/api.html#express">Express</a></li>
-</ul>
+
+* [Typescript](https://www.typescriptlang.org/)      
+* [React](https://reactjs.org/)      
+* [Expo](https://expo.io/)       
+* [Express](https://expressjs.com/)      
 
 # :rocket: Features
 
@@ -49,32 +36,51 @@ This project was made using the follow technologies:
 * App to connect teachers and students.
 
 # :construction_worker: How to run
-### Mobile
-To run the web project you need to clone this repository in your machine and do the following commands:
+```bash
+# Clone Repository
+$ git clone https://github.com/senaarth/proffy.git
+```
+### 📦 Run API
+
+```bash
+# Go to server folder
+$ cd proffy/server
+
+# Install Dependencies
+$ yarn install
+
+# Run Aplication
+$ yarn start
+```
+Access API at http://localhost:3333/
+
+### 💻 Run Web Project
+
+```bash
+# Go to web folder
+$ cd proffy/web
+
+# Install Dependencies
+$ yarn install
+
+# Run Aplication
+$ yarn start
+```
+Go to http://localhost:3000/ to see the result.
+
+### 📱 Run Mobile Project
+To run the mobile project you need a cellphone with the app of [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) instaled or a emulator android/ios.
 <br />
+After, fork this repository and clone to your machine. Inside of the project's folder run the following commands:
 
-```sh
-cd proffy
+```bash
+# Go to mobile folder
+$ cd proffy/mobile
 
-cd web
+# Install Dependencies
+$ yarn install
 
-npm install
-
-npm start
+# Run Aplication
+$ yarn start
 ```
 Aferter read the QRCode with the app of [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) or run on emulator.
-
-
-# :bug: Issues
-
-Feel free to **file a new issue** with a respective title and description on the the [Proffy](https://github.com/RafaelGoulartB/Proffy/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**!
-
-# :closed_book: License
-
-Released in 2020 :closed_book: License
-
-Made with love by [Rafael Goulart](https://github.com/RafaelGoulartB) 🚀.
-This project is under the [MIT license](https://github.com/RafaelGoulartB/Proffy/master/LICENSE).
-
-
-Give a ⭐️ if this project helped you!
